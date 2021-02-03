@@ -17,7 +17,7 @@
         <java.enable.preview>--enable-preview</java.enable.preview>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <kotlin.version>1.4.10</kotlin.version>
+        <kotlin.version>1.4.21</kotlin.version>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
 
         <junit.version>5.7.0</junit.version>
