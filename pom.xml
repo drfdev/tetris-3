@@ -23,18 +23,22 @@
         <junit.version>5.7.0</junit.version>
 
         <!-- Main class for JAR -->
-        <!-- TODO -->
         <main.class>dev.drf.tetris3.jar.MainKt</main.class>
     </properties>
 
     <modules>
         <module>tetris-3-jar</module>
+        <module>tetris-3-common</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
             <!-- Tetris -->
-            <!-- TODO -->
+            <dependency>
+                <groupId>dev.drf.tetris3</groupId>
+                <artifactId>tetris-3-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <!-- Kotlin -->
             <dependency>

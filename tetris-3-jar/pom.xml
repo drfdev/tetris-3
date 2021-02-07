@@ -15,7 +15,10 @@
 
     <dependencies>
         <!-- Tetris -->
-
+        <dependency>
+            <groupId>dev.drf.tetris3</groupId>
+            <artifactId>tetris-3-common</artifactId>
+        </dependency>
 
         <!-- Kotlin -->
         <dependency>
