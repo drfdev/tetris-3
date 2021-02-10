@@ -29,6 +29,7 @@
     <modules>
         <module>tetris-3-jar</module>
         <module>tetris-3-common</module>
+        <module>tetris-3-retail</module>
     </modules>
 
     <dependencyManagement>
@@ -37,6 +38,11 @@
             <dependency>
                 <groupId>dev.drf.tetris3</groupId>
                 <artifactId>tetris-3-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dev.drf.tetris3</groupId>
+                <artifactId>tetris-3-retail</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
