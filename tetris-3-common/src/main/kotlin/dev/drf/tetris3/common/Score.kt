@@ -13,7 +13,7 @@ enum class Score(val rowCount: Int, val score: Long) {
             if (!rowToScopeMap.containsKey(rowCount)) {
                 throw IllegalArgumentException("Unknown row counts: $rowCount")
             }
-            return rowToScopeMap.get(rowCount)!!
+            return rowToScopeMap[rowCount]!!
         }
     }
 }
