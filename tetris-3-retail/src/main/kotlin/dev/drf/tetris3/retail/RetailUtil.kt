@@ -1,6 +1,7 @@
 package dev.drf.tetris3.retail
 
 import dev.drf.tetris3.common.Score
+import dev.drf.tetris3.retail.chain.StartupGameChain
 import dev.drf.tetris3.retail.game.TetrisGame
 
 fun getScope(rowCount: Int): Score {
@@ -8,5 +9,5 @@ fun getScope(rowCount: Int): Score {
 }
 
 fun createGame(): Game {
-    return TetrisGame();
+    return TetrisGame(StartupGameChain())
 }
