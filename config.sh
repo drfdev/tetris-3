@@ -4,6 +4,7 @@
 
 # scripts
 chmod +x run.sh
+chmod +x rebuild.sh
 
 # git settings
 git config --global core.autocrlf true
