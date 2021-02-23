@@ -1,5 +1,5 @@
 package dev.drf.tetris3.retail.model
 
-interface NotificationCallBack<R> {
-    fun callback(result: CallbackResult<R>)
+interface NotificationCallBack<T: Task> {
+    fun callback(result: CallbackResult<T>)
 }

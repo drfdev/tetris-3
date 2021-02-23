@@ -8,6 +8,6 @@ package dev.drf.tetris3.retail.model
  * Step 4: build result (CallbackResult) and call NotificationCallBack.callback(result)
  */
 interface GameEventListener {
-    fun <R> notify(event: GameEvent<R>, callback: NotificationCallBack<R>)
+    fun <T: Task> notify(event: GameEvent<T>, callback: NotificationCallBack<T>)
     fun eventType(): GameEventType
 }

@@ -1,5 +1,5 @@
 package dev.drf.tetris3.retail.model
 
-interface GameEventProcessor<R> {
-    fun handle(event: GameEvent<R>): R
+interface GameEventProcessor<T: Task> {
+    fun handle(event: GameEvent<T>): T
 }
